@@ -1,9 +1,92 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title>Contact Page</title>
+        <meta charset="UTF-8">
+        <title>Weights Store: Contact
+        </title>
     </head>
     <body>
-        <p>Contact page</p>
+        <header>
+            <h1>Weights Store: Contact</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li>Shop</li>
+                    <li><a href="contact.html">Contact Us</a></li> 
+                </ul>
+            </nav>
+        </header>
+        <aside>
+            <h2>Shop by</h2>
+            <section>
+                <h3>Category</h3>
+                <hr>
+                <ul>
+                    <li>All items</li>
+                    <li>Dumbbells</li>
+                    <li>Barbells</li>
+                    <li>Easy Bars</li>
+                    <li>Bench Press</li>
+                    <li>Squat Rack</li>
+                    <li>Machines</li>
+                    <li>Bars(Dip,Pull-up,etc)</li>
+                </ul>
+            </section>
+            <section>
+                <h3>Price ($)</h3>
+                <hr>
+                <ul>
+                    <li>1-14</li>
+                    <li>15-29</li>
+                    <li>30-59</li>
+                    <li>60-99</li>
+                    <li>100-299</li>
+                    <li>300+</li>
+                </ul>
+            </section>
+        </aside>
+        <main>
+            <h2>Contact Us</h2>
+            <form action="" method="">
+                <div>
+                    <label for="name">Name:</label><input type="text" placeholder="Enter name here" id="name" name="name">
+                </div>
+                <div>
+                    <label for="input_email">Email:</label><input type="email" placeholder="Enter email here" id="input_email" name="input_email">
+                </div>
+                <div>
+                    <label for="message">Message:</label><textarea cols="50" rows="4" id="message" name="message"></textarea>
+                </div>
+                <div>
+                    <p>Subscribe to future offers via:</p>
+                    <label for="newsletter">Newsletter</label>
+                    <input type="checkbox" id="newsletter" name="subscribe" value="newsletter">
+
+                    <label for="check_email">Email</label>
+                    <input type="checkbox" id="check_email" name="subscribe" value="check_email">
+
+                    <label for="phone">Text</label>
+                    <input type="checkbox" id="phone" name="subscribe" value="phone">
+                </div>
+                <div>
+                    <p>How would you like us to respond?</p>
+                    <label for="phone_response">Phone</label>
+                    <input type="radio" id="phone_response" name="response" value="phone_response">
+                    <label for="email_response">Email</label>
+                    <input type="radio" id="email_response" name="response" value="email_response">
+                    <label for="both">Both</label>
+                    <input type="radio" id="both" name="response" value="both">
+                </div>
+            </form>
+        </main>
+    <footer>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Shop</li>
+                <li>Contact Us</li>
+            </ul>
+        </nav>
+    </footer>
     </body>
 </html>
