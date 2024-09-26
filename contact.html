@@ -2,8 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Weights Store: Contact
-        </title>
+        <title>Weights Store: Contact</title>
     </head>
     <body>
         <header>
@@ -15,6 +14,7 @@
                     <li><a href="contact.html">Contact Us</a></li> 
                 </ul>
             </nav>
+            <input type="search" placeholder="search...">
         </header>
         <aside>
             <h2>Shop by</h2>
@@ -51,12 +51,37 @@
                 <div>
                     <label for="name">Name:</label><input type="text" placeholder="Enter name here" id="name" name="name">
                 </div>
+
                 <div>
                     <label for="input_email">Email:</label><input type="email" placeholder="Enter email here" id="input_email" name="input_email">
                 </div>
+
                 <div>
                     <label for="message">Message:</label><textarea cols="50" rows="4" id="message" name="message"></textarea>
                 </div>
+
+
+                <div>
+                    <label for="subject">Subject</label>
+                    <select id="subject">
+                        <optgroup label="Product issues"> 
+                            <option value="returns">Returns</option>
+                            <option value="broken_items">Broken Items</option>
+                        </optgroup>
+
+                        <optgroup label="Delivery">
+                            <option value="delivery_info">Delivery Info</option>
+                            <option value="order_tracking">Tracking My Order</option>
+                        </optgroup>
+
+                        <optgroup label="Other">
+                            <option value="advice">Advice</option>
+                            <option value="other">Other</option>
+                        </optgroup>
+                    </select>
+                </div>
+
+
                 <div>
                     <p>Subscribe to future offers via:</p>
                     <label for="newsletter">Newsletter</label>
@@ -68,6 +93,7 @@
                     <label for="phone">Text</label>
                     <input type="checkbox" id="phone" name="subscribe" value="phone">
                 </div>
+
                 <div>
                     <p>How would you like us to respond?</p>
                     <label for="phone_response">Phone</label>
@@ -77,6 +103,11 @@
                     <label for="both">Both</label>
                     <input type="radio" id="both" name="response" value="both">
                 </div>
+
+                <div>
+                    <input type="submit">
+                </div>
+
             </form>
         </main>
     <footer>
