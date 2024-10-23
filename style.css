@@ -3,3 +3,37 @@ html{
     margin: 0 auto;
     font-family: 'ADLaM Display';
 }
+header{
+    background-color: black;
+    color: white;
+}
+
+header a{
+    color: white;
+}
+
+header a:hover{
+    color:rgb(219, 219, 219)
+}
+
+#name, #input_email{
+    color: rgb(0, 0, 0);   
+}
+::placeholder{
+    color: black;
+}
+.product{
+    border: 4px solid gray;
+    width: 400px;
+    margin: 5px;
+    display: inline-block;
+}
+img{
+    max-width: 100%;
+    width: 200px;
+    height:200px
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
